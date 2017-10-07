@@ -20,9 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   in solving impossible problems using Deep Learning, Computer Vision, and Natural 
   Language Processing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.positronic.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: positronicio
 github_username:  
+google_analytics: 56016714
+disqus_shortname: "positronic"
 
 # Build settings
 markdown: kramdown
@@ -33,11 +35,12 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - serve.sh
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
