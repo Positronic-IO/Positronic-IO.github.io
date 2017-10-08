@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Language Processing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.positronic.ai" # the base hostname & protocol for your site, e.g. http://example.com
+web_url: "http://positronic.ai"
 twitter_username: positronicio
 github_username:  
 google_analytics: 56016714

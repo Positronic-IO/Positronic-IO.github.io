@@ -8,6 +8,12 @@
 
     <div>
         <ul class="social-media-list">
+          <li>
+              {% include icon-blog.html url='http://blog.positronic.ai' name='blog.positronic.ai' %}
+          </li>
+          <li>
+              {% include icon-rss.html url="/feed.xml" %}
+            </li>
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -19,11 +25,14 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul>
+          {% if site.web_url %}
+          <li>
+            {% include icon-web.html url=site.web_url name='positronic.ai' %}
+          </li>
+          {% endif %}
+          </ul>
       </div>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      
     </div>
 
   </div>
