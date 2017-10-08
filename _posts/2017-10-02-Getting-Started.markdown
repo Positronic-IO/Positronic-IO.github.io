@@ -8,8 +8,6 @@ date:   2017-10-02 08:00:00 -0500
 categories: case-studies
 ---
 
-The best source of inspiration are success stories. Seek out and read as many case studies as you can get your hands on. Attend meetups to connect with peers to hear their stories. The more success stories you consume, the more you training data you provide to the neural network in your brain to help classify and predict the sorts of problems that make good candidates for AI. Once you’ve trained your internal neural network you’re ready to apply it to your own business.
-
 At Positronic we take a four-stage approach to implementing a new data science project. 
 
 <img src="/assets/images/depd.png" />
