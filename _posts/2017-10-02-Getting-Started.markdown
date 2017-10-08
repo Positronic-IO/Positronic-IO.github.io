@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Discover > Test > Build > Deploy"
+author: 
+    name: ben
+    twitter: xcud
 date:   2017-10-02 08:00:00 -0500
 categories: case-studies
 ---

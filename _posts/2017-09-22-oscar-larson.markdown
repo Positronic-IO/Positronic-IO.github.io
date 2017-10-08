@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Gas Station Maintenance Company uses AI to Reduce Costs"
+author: 
+    name: ben
+    twitter: xcud
 date:   2017-09-22 08:00:00 -0500
 categories: case-studies
 ---
